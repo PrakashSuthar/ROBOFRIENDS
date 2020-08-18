@@ -13,5 +13,7 @@ This project was done while doing the **Udemy Course:The Complete Junior to Seni
 
 ## Running instructions
   >Clone Project
+  
   >npm install
+  
   >npm start 
