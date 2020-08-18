@@ -4,6 +4,7 @@ import {robots}  from '../robots';
 import SearchBox from '../components/SearchBox';
 import './App.css';
 import Scroll from '../components/Scroll'; 
+import ErrorBoundary from '../components/ErrorBoundary'
 //props are things that come out of state
 
 //State is superior to props as props depend on state
@@ -60,7 +61,10 @@ class App extends Component{
         
                 <SearchBox searchChange={this.onSearchChange}/>
                 <Scroll>
-                <CardList robots={FilteredRobots}/>
+                    <ErrorBoundary>
+                    <CardList robots={FilteredRobots}/>
+                    </ErrorBoundary>
+                
                 </Scroll>
                 </div>
                 );

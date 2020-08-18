@@ -1,5 +1,5 @@
 # ROBOFRIENDS:(A React.js App)
-
+Link: https://prakashsuthar.github.io/ROBOFRIENDS/
 This project was done while doing the **Udemy Course:The Complete Junior to Senior Web Developer Roadmap (2020)** by **Andrei Neagoie**
 
 ##  ScreenShot
@@ -12,4 +12,8 @@ This project was done while doing the **Udemy Course:The Complete Junior to Seni
 <img src="./screenshots/snap2.JPG" height="250" width="460">
 
 ## Running instructions
+  >Clone Project
+  
+  >npm install
+  
   >npm start 
