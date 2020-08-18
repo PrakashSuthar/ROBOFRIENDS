@@ -12,4 +12,6 @@ This project was done while doing the **Udemy Course:The Complete Junior to Seni
 <img src="./screenshots/snap2.JPG" height="250" width="460">
 
 ## Running instructions
+  >Clone Project
+  >npm install
   >npm start 
